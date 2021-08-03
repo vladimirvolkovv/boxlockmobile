@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "boxLock",
+    "slug": "boxLock",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/boxLockSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004680"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "boxLock.app.boxlock"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
